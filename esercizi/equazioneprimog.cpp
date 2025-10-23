@@ -25,16 +25,6 @@ per determinare il valore di x, se esiste, che risolve
         float x = - b / a;
         cout <<"La soluzione e':"<< " " << x; 
     }
-    
-
-
-
-
-
-
-
-
-
 
 
 
