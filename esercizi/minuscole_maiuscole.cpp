@@ -12,18 +12,8 @@
     cin >> minuscolo;
 
 
-
-    char maiuscolo = minuscolo - 32;
-
-    cout << "Il carattere corrispondente maiuscolo e':"<<maiuscolo;
-
-    
-
-
-
-
-
-
+    char maiuscolo = minuscolo - 32; //differenza tra carattere minuscolo e maiuscolo tavola ASCII
+    cout << "Il carattere corrispondente maiuscolo e':"<< maiuscolo;
 
 
     return 0;
