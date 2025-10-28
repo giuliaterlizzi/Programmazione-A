@@ -19,8 +19,6 @@ int main() {
 
     }
     cout <<" il fattoriale e del"<<" "<< n<<" "<< "e'"<< fattoriale;
- 
-
 
 
     return 0;
