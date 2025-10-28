@@ -20,7 +20,7 @@ int main() {
         i++;  
 
     }
-    cout << "La somma dei numeri da 1 a n e' di:" <<" "<< somma; 
+    cout << "La somma dei numeri da 1 a" <<" "<< n <<" "<< "e' di:" <<" "<< somma; 
 
 
     return 0;
