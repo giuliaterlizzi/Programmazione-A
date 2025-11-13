@@ -10,15 +10,15 @@ int main() {
 
     int numero;
 
-    cout << "Inserisci un numero intero" <<endl;
+    cout << "Inserisci un numero intero" << endl;
     cin >> numero;
 
     if(numero > 0){
-        cout << "il numero è positivo"<<endl;
+        cout << "il numero è positivo" << endl;
     }else if (numero < 0){
-        cout << "il numero è negativo"<<endl;
+        cout << "il numero è negativo" << endl;
     }else {
-        cout <<"uguale a zero"<< endl;
+        cout << "uguale a zero" << endl;
     }
 
     return 0;
