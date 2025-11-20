@@ -49,16 +49,6 @@
       
       cout << "La somma con il ciclo do-while e':" << " "<<somma2 << endl;
 
-     
-
-
-     
-
-
-
-
-
-
 
 
     return 0;
