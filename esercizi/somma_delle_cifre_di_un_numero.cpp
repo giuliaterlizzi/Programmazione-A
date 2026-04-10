@@ -12,21 +12,21 @@
     // esercizio con il while
 
     int numero;
-    cout << "inserisci un numero intero positivo" << endl;
+    cout << "Inserisci un numero intero positivo" << endl;
     cin >> numero;
 
 
     
     int somma = 0;
 
-    while(numero > 0) {
+    while(numero > 0) { //ripeto finchè numero non diventa 0.
 
-        somma = somma + numero % 10;
-        numero = numero / 10;
+        somma = somma + numero % 10; //prendo l'ultima cifra e aggiungila.
+        numero = numero / 10; //tolgo l'ultima cifra.
 
     }
 
-    cout << "Con il cilo while la somma e':" << somma;
+    cout << "Con il cilo while la somma delle cifre e':" << somma << endl; 
 
 
  
@@ -34,7 +34,7 @@
 
     int numero1;
 
-    cout << "inserisci un numero intero positivo" << endl;
+    cout << "Inserisci un numero intero positivo" << endl;
     cin >> numero1;
 
     int somma1 = 0;
@@ -43,11 +43,11 @@
 
 
          somma1 = somma1 + numero1 % 10;
-        numero1 = numero1/ 10;
+         numero1 = numero1 / 10;
 
     }while (numero1 > 0);
 
-    cout << " Con il ciclo do-while la somma e':" << somma1;
+    cout << " Con il ciclo do-while la somma delle cifre e':" << somma1;
 
 
 
